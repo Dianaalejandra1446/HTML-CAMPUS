@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&display=swap');
+body {
+    background-image: url(./imagenes/fondo.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 100px;
+
+}
+.titulos {
+    margin: 0;
+    letter-spacing: 5px;
+}
+.img_encabezado {
+    padding: 0;
+    width: 700px;
+    height: 50px;
+}
+.encabezado {
+    font-family: 'Birthstone Bounce', cursive;
+    margin: 0;
+    font-size: 20px;
+    display: block;
+    text-align: center;   
+}
+/* .trompeta1 {
+    display: flex;
+    width: 20%;
+} */
+.contenedor {
+    height: 150vh;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+
+}
+
+.piezas {
+    width: 230px;
+    height: 400px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    text-align: justify;
+}
+.imagenes {
+    width: 230px;
+}
+.imagen5 {
+    width: 200px;
+    height: 100px;
+
+}
+p {
+    margin: 0;
+ }
+.ultimaimagen {
+    float: left;
+}
