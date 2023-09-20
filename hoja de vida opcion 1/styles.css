@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.body {
+    font-family: 'Righteous', cursive;
+    width: 40.59cm;
+    height: 40.94cm;
+    background-color: #F9F5F6;
+    width: 100%;
+}
+.encabezado {
+    background-color: rgb(252, 207, 247);
+    display: inline-flex;
+}
+#photo{
+    padding: 35px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#iconos {
+    width: 1cm;
+}
+
+h1 {
+    color: rgb(248, 81, 170);
+    font-size: 50px;
+}
+h2 {
+    color: darkorchid;
+    font-size: 30px;
+}
+h3 {
+    color: deeppink;
+    font-size: 35px;
+}
+#texto{
+    align-items: center;
+    font-size: 30px;
+    padding-right:20px;
+}
+.estilo_encabezado{
+    background-color: rgb(252, 207, 247);
+}
+.redes {
+    background-color: #fbdce7;
+    border: 15px;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.goals{
+    background-color: rgb(217, 206, 254);
+    margin: auto;
+    text-align: justify;
+    padding: 30px;
+    font-size: 25px;
+}
+.skills{
+    background-color: rgb(250, 227, 249);
+    text-align: justify;
+    font-size: 30px;
+}
+#images2{
+    width: 600px;
+}
+#images2correjida{
+    padding-left: 30px;
+    width: 540px;
+}
+#estudioimg{
+    width: 50px;
+}
