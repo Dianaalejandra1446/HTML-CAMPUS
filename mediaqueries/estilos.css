@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+/* Estilos comunes para todos los tamaños de pantalla /
+ */body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./imagenes/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Estilos para pantallas grandes (escritorio) /
+ */@media (min-width: 768px) {
+    .container {
+        display: flex;
+    }
+
+    .nav {
+        background-color: #a983bd;
+        color: #fff;
+        font-family: 'Oldenburg', cursive;
+        padding: 10px;
+        flex: 1;
+    }
+
+    .content {
+        font-family: 'Oldenburg', cursive;
+        background-color: #a2d4ff;
+        padding: 20px;
+        flex: 3;
+    }
+}
+.padre {
+    display: flex;
+    }
+.hijos {
+    width: 200px;
+    margin: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/* Estilos para pantallas pequeñas (móviles) 
+ */@media (max-width: 467px) {
+    body {
+        font-family: 'Oldenburg', cursive;
+        background-image: url(./imagenes/fondocelular.avif);
+    
+    }
+    .container {
+        flex-direction: column;
+    }
+
+    .nav, .content {
+        width: 100%;
+        padding: 10px;
+    }
+}
+.letra {
+    font-family: 'Oldenburg', cursive;
+}
