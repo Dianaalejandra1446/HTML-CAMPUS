@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.inicio h2 {
+    margin: 0;
+    padding: 25px;
+    font-family: 'Audiowide', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: hsla(0, 0%, 0%, .9);
+    left: 0;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    animation: move linear 2000ms infinite;
+}
+@keyframes move {
+    0% {
+      text-shadow:
+        4px -4px 0 hsla(0, 100%, 50%, 1), 
+        3px -3px 0 hsla(0, 100%, 50%, 1), 
+        2px -2px 0 hsla(0, 100%, 50%, 1), 
+        1px -1px 0 hsla(0, 100%, 50%, 1),
+        -4px 4px 0 hsla(180, 100%, 50%, 1), 
+        -3px 3px 0 hsla(180, 100%, 50%, 1), 
+        -2px 2px 0 hsla(180, 100%, 50%, 1), 
+        -1px 1px 0 hsla(180, 100%, 50%, 1)
+      ;
+    }
+    25% {    
+      text-shadow:      
+        -4px -4px 0 hsla(180, 100%, 50%, 1), 
+        -3px -3px 0 hsla(180, 100%, 50%, 1), 
+        -2px -2px 0 hsla(180, 100%, 50%, 1), 
+        -1px -1px 0 hsla(180, 100%, 50%, 1),
+        4px 4px 0 hsla(0, 100%, 50%, 1), 
+        3px 3px 0 hsla(0, 100%, 50%, 1), 
+        2px 2px 0 hsla(0, 100%, 50%, 1), 
+        1px 1px 0 hsla(0, 100%, 50%, 1)      
+      ;
+    }
+    50% {
+      text-shadow:
+        -4px 4px 0 hsla(0, 100%, 50%, 1), 
+        -3px 3px 0 hsla(0, 100%, 50%, 1), 
+        -2px 2px 0 hsla(0, 100%, 50%, 1), 
+        -1px 1px 0 hsla(0, 100%, 50%, 1),
+        4px -4px 0 hsla(180, 100%, 50%, 1), 
+        3px -3px 0 hsla(180, 100%, 50%, 1), 
+        2px -2px 0 hsla(180, 100%, 50%, 1), 
+        1px -1px 0 hsla(180, 100%, 50%, 1)
+      ;
+    }
+    75% {
+      text-shadow:
+        4px 4px 0 hsla(180, 100%, 50%, 1), 
+        3px 3px 0 hsla(180, 100%, 50%, 1), 
+        2px 2px 0 hsla(180, 100%, 50%, 1), 
+        1px 1px 0 hsla(180, 100%, 50%, 1),
+        -4px -4px 0 hsla(0, 100%, 50%, 1), 
+        -3px -3px 0 hsla(0, 100%, 50%, 1), 
+        -2px -2px 0 hsla(0, 100%, 50%, 1), 
+        -1px -1px 0 hsla(0, 100%, 50%, 1)      
+      ;
+    }
+    100% {
+      text-shadow:
+        4px -4px 0 hsla(0, 100%, 50%, 1), 
+        3px -3px 0 hsla(0, 100%, 50%, 1), 
+        2px -2px 0 hsla(0, 100%, 50%, 1), 
+        1px -1px 0 hsla(0, 100%, 50%, 1),
+        -4px 4px 0 hsla(180, 100%, 50%, 1), 
+        -3px 3px 0 hsla(180, 100%, 50%, 1), 
+        -2px 2px 0 hsla(180, 100%, 50%, 1), 
+        -1px 1px 0 hsla(180, 100%, 50%, 1)
+      ;
+    }  
+  }
+  .inicio .inicio_parrafo {
+    margin: 0;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+   
+  }
+  .inicio {
+    background-color: rgba(195, 54, 255, 0.816);
+  }
+  .padrecultura {
+    display: block;
+    flex-direction: column;
+  }
+  .cultura {
+    background-image: url(./imagenesjapon/fondo1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:470px
+  }
+  .cultura h3 {
+    padding-top: 35px;
+    margin: 0;
+    padding-bottom: 15px;
+    font-family: 'Righteous', cursive;
+    color: #5650ccd3;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+  .cultura p {
+    padding: 20px;
+    align-self: right;
+    text-align: justify;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 25px;
+  }
+  .lugar1 {
+    margin: 20px;
+    padding-bottom: 18px;
+    padding-right: 30px;
+    width: 400px;
+    float: right;
+    transition: 0.5s;
+    object-fit: cover;
+  }
+  .lugar1:hover{
+    transform: scale(1.1);
+  }
+ .comida_tipica {
+    background-image: url(./imagenesjapon/fondo2.png);
+    width:96,3%;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    
+  }
+  .comida_tipica p {
+    display: flex;
+    text-align: center;  
+    font-family: 'Londrina Solid', cursive;
+    font-size: 22px;
+  }
+  
+  .comida_tipica h1 {
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-family: 'Yatra One', cursive;
+    font-size: 45px;
+    color: #460A74;
+    
+  }
+  .padreimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+  }
+  .padreimages img {
+    border: solid 15px #B299FF;
+    border-radius: 50%;
+  }
+
+  .comida_tipica img {
+    width: 350px;
+  }
+  .comida_tipica .parrafo {
+    border: 10px white solid;
+    background-color: white;
+  
+  }
+  .padreimages p {
+    font-family: 'Audiowide', cursive;
+  }
+  #sushi {
+    padding-top: 35px;
+  }
+  .parrafo2 p {
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 22px;
+    border: 10px rgb(217, 217, 217) solid;
+    background-color: rgb(217, 217, 217);
+  }
+  .padreimages2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+  }
+  .padreimages2 img {
+    border: solid 15px #FDA7FF;
+    border-radius: 50%;
+    width: 250px;
+  }
+  .padreimages2 p {
+    font-family: 'Audiowide', cursive;
+  }
+  #sect1 {
+    position: relative;
+    overflow: hidden;
+  }
+  .sect {
+    width: 100%;
+    min-height: 500px;
+    box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(113, 106, 80);
+
+  }
+  video {
+    opacity: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    z-index: -1;
+  }
+  .sect h1 {
+
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    text-align: center;
+  }
+  .sect h2 {
+    padding: 15px;
+    padding-top: 0;
+
+    font-family: 'Yatra One', cursive;
+    font-size: 30px;
+    color: #8862fc;
+  }
+  #imagen1 {
+    width: 300px;
+    float: left;
+    padding: 15px;
+  }
+  .sect p ,li {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 25px;
+    margin: 0;
+  }
+  #imagen2 {
+    width: 300px;
+    float: right;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+  .lugaresparte2 {
+    display:flex;
+    margin: 0;
+    padding: 0;
+  }
+  .maidcafe {
+    margin: 30px;
+    background-color: white;
+    border: outset rgba(253, 140, 253, 0.397) 5px;
+  }
+  .maidcafe h2 {
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+  }
+  .maidcafe img {
+    width: 400px;
+    
+  }
+  .torretokio {
+    margin: 30px;
+    background-color: white;
+    border: outset rgba(163, 140, 253, 0.397) 5px;
+  }
+  .torretokio h2 {
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+  }
+  .torretokio img {
+    width: 400px;
+  }
