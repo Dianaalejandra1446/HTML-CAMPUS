@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/xd" name="miFormulario" method="POST">
+        <label for="nom">Digite su nombre: </label>
+        <input type="text" id="nom" placeholder="Write only frist name and last name">
+        <br>
+
+        <label for="edad">Digite su edad: </label>
+        <input type="text" id="edad" value="18">
+        <br>
+
+        <label for="ocu">Digite su Ocupacion: </label>
+        <input type="text" id="ocu">
+        <br>
+
+        <label for="contra">Digite su password: </label>
+        <input type="password" id="contra" name="contraseña">
+        <br>
+
+        <label for="correo">Digite su correo: </label>
+        <input type="email" id="correo">
+        <br>
+
+<!--         <label for="ingre">Ingreso: </label>
+        <input type="checkbox" name="ingresar" id="ingre">
+        <br>
+
+        <label for="si">Si</label>
+        <input type="radio" name="si" id="si">
+        <label for="no">No</label>
+        <input type="radio" name="no" id="no">
+        <br>
+
+        <label for="">Ingresar Archivo</label>
+        <input type="file">
+        <br> -->
+
+        <label for="opinion">Digite su opinion acerca del servicio</label>
+        <br>
+        <textarea name="opinion" id="opi" cols="30" rows="10">Este es el valor por defecto</textarea><!-- cols son columnas y rows filas -->
+        <!-- LISTAS -->
+        <ul>
+            <li>Prime item</li>
+            <li>Segundo item</li>
+            <li>Tercer item</li>
+            <li>Cuarto item</li>
+        </ul>
+
+        <!-- LISTA ORDENADA -->
+        <ol reversed> <!-- PARA QUE SEA DE MAYOR A MENOR -->
+            <li value="10">Prime item</li>
+            <li>Segundo item</li>
+            <li>Tercer item</li>
+            <li>Cuarto item</li>
+        </ol>
+
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Restablecer valores</button>
+        <button type="button">Hacer algo con JS</button>
+    </form>
+
+    <br>    <br>
+
+    <b>PHP - Java - JavaScript - C - C++</b><!-- PONER NEGRITA -->
+
+    <p>PHP <br> Java <br> JavaScript <br> C <br> C++</p>
+
+    <p>
+        SQL, Structure Query Language (Lenguaje de Consulta Estructurado) es un lenguaje de
+        programacion para trabajar con base de datos relacionales como MySQL, Oracle, etc.<br>
+        MySQL es un interpretador de SQL, es un servidor de base de datos.<br>
+        MySQL permite crear base de datos y tablas, insertar datos, modificarlos, eliminarlos,
+        ordenarlos, hacer consultas y realizar muchas operaciones, etc., resumiendo: administrar bases
+        de datos.
+    </p>
+
+
+    <h1>Tipos de datos en MySQL</h1>
+    <h2>varchar</h2>
+    <p>
+    se usa para almacenar cadenas de caracteres. Una cadena es una secuencia de caracteres. Se coloca
+    entre comillas (simples): 'Hola'.<br>
+    El tipo "varchar" define una cadena de longitud variable en la cual determinamos el máximo de
+    caracteres. Puede guardar hasta 255 caracteres. Para almacenar cadenas de hasta 30 caracteres,
+    definimos un campo de tipo varchar(30).
+    </p>
+    <h2>int</h2>
+    <p>
+    Se usa para guardar valores numéricos enteros, de -2000000000 a 2000000000
+    aproximadamente.<br> Definimos campos de este tipo cuando queremos representar, por
+    ejemplo, cantidades.
+
+
+    <p><strong>Típos de datos</strong> en MySQL</p><!-- strong para hacer la letra negrilla -->
+
+    <p><em>TEXTO</em>:
+     Para almacenar texto usamos cadenas de caracteres. Las cadenas se
+    colocan entre comillas simples. Podemos almacenar dígitos con los que no se realizan
+    operaciones matemáticas, por ejemplo, códigos de identificación, números de documentos,
+    números telefónicos. Tenemos los siguientes tipos: varchar, char y text.</p>
+    <p><em>NUMEROS</em>: <!-- em para CURSIVA -->
+    Existe variedad de tipos numéricos para representar enteros,
+    negativos, decimales. Para almacenar valores enteros, por ejemplo, en campos que hacen
+    referencia a cantidades, precios, etc., usamos el tipo integer. Para almacenar valores con
+    decimales utilizamos: float o decimal.</p>
+    <p><em>FECHAS Y HORAS</em>: <!-- em para hacer la letra cursiva -->
+    para guardar fechas y horas dispone de varios tipos: date
+    (fecha), datetime (fecha y hora), time (hora), year (año) y timestamp.</p>
+
+    <br>
+    <h1 style="text-align: center;">Periodico</h1>
+    <h2><strong>Noticias Politicas</strong></h2>
+    <h3> El chavismo: </h3>
+    <p>  El chavismo retiene sin complicaciones el control del órgano electoral. Tres de los cinco rectores son afines al Gobierno de Maduro y dos pertenecen a cuotas opositoras</p>
+    <h2><strong>Noticias Deportivas</strong></h2>
+
+    <br>
+    </body>
+</html>
